@@ -192,7 +192,7 @@
                                 }
 
                                 buku.decreaseDipinjam();
-                                System.out.println("buku " + buku.getJudul() + "Dipinjam oleh: " + memberPinjam.getNama());
+                                System.out.println("buku " + buku.getJudul() + " Berhasil Dipinjam oleh: " + memberPinjam.getNama());
                                 sc.nextLine();
                             } else {
                                 System.out.println("Buku tidak tersedia atau Stok Habis");
@@ -203,8 +203,6 @@
                             System.out.println("Buku atau ID Anggota tidak ditemukan");
                             sc.nextLine();
                         }
-
-
                     } else if (pilihan == 2) {
                         // Lihat buku yang dipinjam  
                         if (!bukuDipinjam.isEmpty()) {
@@ -216,7 +214,7 @@
                             System.out.println("Belum ada buku yang dipinjam.");
                             sc.nextLine();
                         }
-                    }
+                    } 
                 }
             }
         }
