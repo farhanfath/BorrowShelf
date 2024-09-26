@@ -13,22 +13,15 @@ import java.util.ArrayList;
 public class BukuDipinjam extends Buku {
     private ArrayList<Anggota> peminjam;
     
-    public BukuDipinjam(int ID, String Penulis, String Judul, int Stok, ArrayList<Anggota> peminjam) {
-        
+    public BukuDipinjam(int ID, String Penulis, String Judul, int Stok) {
         super(ID, Penulis, Judul, Stok);
-        this.peminjam = peminjam;
+        this.peminjam = new ArrayList<>(); // Inisialisasi daftar peminjam
     }
 
-    /**
-     * @return the peminjam
-     */
     public ArrayList<Anggota> getPeminjam() {
         return peminjam;
     }
 
-    /**
-     * @param peminjam the peminjam to set
-     */
     public void setPeminjam(ArrayList<Anggota> peminjam) {
         this.peminjam = peminjam;
     }
@@ -36,10 +29,12 @@ public class BukuDipinjam extends Buku {
     @Override
     public String printInfo() {
         String str = "";
-        for(int i = 0; i < peminjam.size(); i++) {
-            str = str + peminjam.get(i).getNama() + ", ";
+        for (Anggota anggota : peminjam) {
+            str += anggota.getNama() + ", ";
         }
-        return super.printInfo() + "\n" +
-                "Peminjam\t:"+ str;
+        return "ID Buku\t:" + getID() + "\n" + 
+                "Judul Buku\t:" + getJudul() + "\n" +
+                "Penulis\t:" + getPenulis() + "\n" +
+                "Peminjam\t: " + str + "\n";
     }
 }
