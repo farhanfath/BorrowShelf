@@ -5,7 +5,7 @@
 ## Tech Stack
 
 - **Bahasa Pemrograman**: Java 
-- **IDE** : Netbeans
+- **IDE** : Netbeans, VSCode
 
 ## Fitur
 
@@ -24,6 +24,10 @@
 - **Peminjaman Buku**: Memungkinkan anggota untuk meminjam buku.
 - **Melihat Detail Peminjam Buku**: Menampilkan informasi tentang anggota yang meminjam buku dan buku yang dipinjam.
 
+## Other Version
+
+- [VScode Project Version](https://github.com/farhanfath/BorrowShelf/tree/vscode)
+
 ## Instalasi
 
 1. Pastikan Anda telah menginstal **Java Development Kit (JDK)** di sistem Anda.
@@ -31,6 +35,7 @@
 
    ```bash
    git clone https://github.com/username/BorrowShelf.git
+    ```
 
 3. Masuk ke direktori proyek:
 
