@@ -1,9 +1,9 @@
-package lsp.project.borrowshelf
+package lsp.project.training.borrowshelf
 
-import lsp.project.borrowshelf.controller.Menu
-import lsp.project.borrowshelf.data.Anggota
-import lsp.project.borrowshelf.data.Buku
-import lsp.project.borrowshelf.data.BukuDipinjam
+import lsp.project.training.borrowshelf.controller.Menu
+import lsp.project.training.borrowshelf.data.Anggota
+import lsp.project.training.borrowshelf.data.Buku
+import lsp.project.training.borrowshelf.data.BukuDipinjam
 
 fun main() {
   val memberTerdaftar = mutableListOf<Anggota>()

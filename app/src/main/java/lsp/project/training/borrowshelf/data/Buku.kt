@@ -1,4 +1,4 @@
-package lsp.project.borrowshelf.data
+package lsp.project.training.borrowshelf.data
 
 open class Buku(
   var id: Int,

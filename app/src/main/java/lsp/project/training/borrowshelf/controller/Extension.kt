@@ -1,4 +1,4 @@
-package lsp.project.borrowshelf.controller
+package lsp.project.training.borrowshelf.controller
 
 fun inputAngka(prompt: String, range: IntRange? = null): Int {
   while (true) {

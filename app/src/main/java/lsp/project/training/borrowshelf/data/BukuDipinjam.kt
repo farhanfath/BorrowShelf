@@ -1,4 +1,4 @@
-package lsp.project.borrowshelf.data
+package lsp.project.training.borrowshelf.data
 
 class BukuDipinjam(
   id: Int,

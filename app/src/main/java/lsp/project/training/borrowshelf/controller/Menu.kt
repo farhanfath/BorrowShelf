@@ -1,7 +1,7 @@
-package lsp.project.borrowshelf.controller
+package lsp.project.training.borrowshelf.controller
 
-import lsp.project.borrowshelf.data.Anggota
-import lsp.project.borrowshelf.data.Buku
+import lsp.project.training.borrowshelf.data.Anggota
+import lsp.project.training.borrowshelf.data.Buku
 
 object Menu {
   fun menuUtama(): Int {
